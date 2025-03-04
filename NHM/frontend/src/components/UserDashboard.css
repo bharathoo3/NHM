@@ -1,0 +1,83 @@
+/* User Dashboard Container */
+.user-dashboard-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .user-dashboard-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* No Bookmarks Message */
+  .user-dashboard-container p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Bookmarked News Grid */
+  .bookmarked-news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Bookmark Card */
+  .bookmarked-news-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .bookmarked-news-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* News Image */
+  .bookmarked-news-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* News Content */
+  .news-content {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .news-content h2 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  
+  .news-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  /* Read More Button */
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  

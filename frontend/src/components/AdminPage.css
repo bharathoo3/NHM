@@ -1,0 +1,116 @@
+/* 🛠️ General Container Styling */
+.admin-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* 🌟 Headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* ✅ Add Button */
+.add-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+/* 📰 News List */
+.news-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 📰 Individual News Item */
+.news-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.news-item:hover {
+  transform: scale(1.02);
+}
+
+/* 📸 News Image */
+.news-item img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* ✏️ Edit Button */
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 🗑️ Delete Button */
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .news-item {
+    padding: 12px;
+    text-align: left;
+  }
+
+  .news-item img {
+    width: 80px;
+  }
+
+  .edit-btn, .delete-btn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}

@@ -1,0 +1,72 @@
+/* 🔹 Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b; /* Dark Blue */
+  padding: 15px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Logo */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #facc15; /* Yellow */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  color: #fbbf24; /* Lighter Yellow */
+}
+
+/* 🔹 Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  color: #f1f5f9; /* Light Gray */
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #facc15; /* Yellow */
+}
+
+/* 🔹 Authentication Button */
+.auth-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #facc15; /* Yellow */
+  color: #1e293b; /* Dark Blue */
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #fbbf24; /* Lighter Yellow */
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .auth-button {
+    margin-top: 10px;
+  }
+}

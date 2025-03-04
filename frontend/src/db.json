@@ -1,0 +1,113 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "Sports",
+      "description": "Leading tech companies have unveiled a groundbreaking AI model that promises to revolutionize the industry...",
+      "category": "Technology",
+      "author": "John Doe",
+      "publishedDate": "2025-03-03",
+      "imageUrl": "https://static.wixstatic.com/media/4c001d_5a4811b4ffb94fab9c1e0396bd8560e8~mv2.png/v1/fill/w_568,h_322,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4c001d_5a4811b4ffb94fab9c1e0396bd8560e8~mv2.png"
+    },
+    {
+      "id": "2",
+      "title": "World Cup Finals: A Historic Match",
+      "description": "The World Cup Finals this year was a spectacle to behold, with a last-minute goal sealing the fate of the tournament...",
+      "category": "Sports",
+      "author": "Sarah Johnson",
+      "publishedDate": "2025-03-02",
+      "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-03/21/full/1711023998-1621.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Climate Change: Alarming New Reports",
+      "description": "Scientists have released new data indicating that global temperatures are rising faster than previously thought...",
+      "category": "Environment",
+      "author": "Michael Green",
+      "publishedDate": "2025-03-01",
+      "imageUrl": "https://www.unilever.com/content-images/92ui5egz/production/a591de824d15ba8cb92dac14fa6fa1fbf1f5ef2d-1920x1080.jpg?rect=0,36,1920,1008&w=1200&h=630&fm=jpg"
+    },
+    {
+      "id": "4",
+      "title": "Stock Market Hits Record High",
+      "description": "Investors were thrilled as the stock market reached unprecedented levels amid economic recovery...",
+      "category": "Business",
+      "author": "Emily White",
+      "publishedDate": "2025-03-01",
+      "imageUrl": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202502/67c1387f99b27-stock-market-crash-investor-wealth-declined-by-rs-672-lakh-crore-to-rs-38638-lakh-crore-today-com-281553676-16x9.jpg?size=948:533"
+    },
+    {
+      "id": "5",
+      "title": "Hollywood's Biggest Movie of the Year",
+      "description": "The highly anticipated blockbuster has finally hit theaters, and fans are raving about its stunning visuals and storytelling...",
+      "category": "Entertainment",
+      "author": "David Brown",
+      "publishedDate": "2025-03-03",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xJC4-mE9yAvd0L5pWQrvKlkPln8JB5fYYQ&s"
+    },
+    {
+      "id": "6",
+      "title": "SpaceX Announces Mars Mission Date",
+      "description": "Elon Musk's SpaceX has finally set a date for the first human mission to Mars, marking a new era in space exploration...",
+      "category": "Science",
+      "author": "Sophia Miller",
+      "publishedDate": "2025-03-02",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQFO9GuBDjHUog/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1706543038797?e=2147483647&v=beta&t=-_PotBG6-kKYA8oOcY03LaxeFknvrO8SW0diAd4oB1Y"
+    },
+    {
+      "id": "7",
+      "title": "New Tech Startup Disrupts Industry",
+      "description": "A Silicon Valley startup is making waves with a disruptive new approach to AI-powered automation.",
+      "category": "Technology",
+      "author": "Mark Wilson",
+      "publishedDate": "2025-03-02",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTX9f4l6SxTvOZ9hPy-TLlYc5cMG5z9px1_Q&s"
+    },
+    {
+      "id": "8",
+      "title": "Olympics 2025: Records Broken on Day 1",
+      "description": "The 2025 Olympics kicked off with athletes breaking multiple world records in the first day of events...",
+      "category": "Sports",
+      "author": "Olivia Davis",
+      "publishedDate": "2025-03-03",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4n_ZTDEYaRt63QuHaU2Pv1MJog638Dmz3Qg&s"
+    },
+    {
+      "id": "1740995713750",
+      "title": null,
+      "category": null
+    },
+    {
+      "id": "1741010218815",
+      "title": null,
+      "category": null
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@news.com",
+      "password": "password",
+      "id": "77f4"
+    },
+    {
+      "id": "bc66",
+      "email": "rambharath979@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "5613",
+      "email": "22cs016@psr.edu.in",
+      "password": "123456"
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "4",
+      "newsId": "4"
+    },
+    {
+      "id": "2",
+      "newsId": "2"
+    }
+  ]
+}

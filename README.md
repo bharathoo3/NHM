@@ -79,7 +79,7 @@ Edit
 cd frontend
 npm start
 App will be running at http://localhost:3000/
-<img width="1894" height="905" alt="Screenshot 2025-03-05 115154" src="https://github.com/user-attachments/assets/64a63cc0-4fdb-49c7-a708-5facca69de29" />
+![Home Page](./images/Screenshot 2025-03-05 114846.png)
 
 
 📁 Project Structure

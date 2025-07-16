@@ -3,9 +3,9 @@ import "./AdminPage.css";
 
 export default function AdminPage() {
   const [news, setNews] = useState([]);
-  const API_URL = "http://localhost:5000/news"; // ✅ Base API URL
+  const API_URL = "http://localhost:5000/news"; 
 
-  // ✅ Fetch all news from API
+
   useEffect(() => {
     fetch(API_URL)
       .then((res) => res.json())
@@ -16,7 +16,7 @@ export default function AdminPage() {
       .catch((error) => console.error("Error fetching news:", error));
   }, []);
 
-  // ✅ Add News
+ 
   const addNews = async () => {
     const title = prompt("Enter News Title:");
     const content = prompt("Enter News Content:");
@@ -41,7 +41,7 @@ export default function AdminPage() {
     }
   };
 
-  // ✅ Edit News
+ 
   const editNews = async (id) => {
     const newTitle = prompt("Enter new title:");
     const newContent = prompt("Enter new content:");
@@ -63,7 +63,7 @@ export default function AdminPage() {
     }
   };
 
-  // ✅ Delete News
+  
   const deleteNews = async (id) => {
     if (!window.confirm("Are you sure you want to delete this news?")) return;
 

@@ -79,7 +79,7 @@ Edit
 cd frontend
 npm start
 App will be running at http://localhost:3000/
-![Home Page](./images/Screenshot 2025-03-05 114846.png)
+![Home Page](./images/Screenshot2025-03-05114846.png)
 
 
 📁 Project Structure
